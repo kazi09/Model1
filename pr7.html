@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="mycolor">
+    
+    <p id="p1">Silver Oak Rocks!</p>
+
+    <script>
+        
+        var p1 = document.getElementById("p1");
+          var size=16;
+        setInterval(()=>{
+           
+            p1.style.fontSize= size+"px"; 
+            size=size+10;
+        },1000)
+
+    </script>
+</body>
+</html>

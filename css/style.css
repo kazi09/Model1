@@ -1,0 +1,9 @@
+.bg:hover{
+    background-color: red;
+    background-image: url('../images/bulb1.jpg');
+
+}
+.bg1{
+    background-color: blue;
+    background-image: url('../images/bulb2.jpg'); 
+}

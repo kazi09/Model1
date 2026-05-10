@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="mybody">
+    <div id="div1" style="height: 150px; width: 150px; background-color: maroon;">
+        Welcome
+    </div>
+    <script>
+        var div1 = document.getElementById("div1");
+        var i=0;
+        setInterval(() => {
+            div1.style.position="relative";
+            div1.style.left=i+"px";
+            i=i+20;
+        }, 100);
+        
+    </script>
+</body>
+</html>
